@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    margin:0;
+    padding-top: 800px; 
+}   
+#messi{
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius:50%;
+
+}
+#welcome {
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right:0;
+    bottom:0;
+    top:0;
+    background: linear-gradient( #030021 0%, #750101 100%);
+    color: white;
+   font-family: monospace
+}
+#bio {
+    font-family: monospace;
+    color:white;
+     background: linear-gradient( #750101 0%, #030021 100%);
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.menu{
+    color:white; 
+    font-family: monospace;
+    list-style: none;
+    background-color: darkgoldenrod;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px; 
+    width:100%; 
+    z-index: 10;
+    cursor: pointor; 
+}
+
+.links{ 
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px; 
+    display: inline; 
+    font-size: 20px; 
+}
+
+.links:hover{
+    background-color: cadetblue;
+    font-size: 25px;
+}
+.contact h3{
+    display: inline; 
+    
+}
